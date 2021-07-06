@@ -1,0 +1,99 @@
+* {
+	padding: 0;
+	margin: 0;
+}
+body {
+	font-family: arial;
+	scroll-behavior: smooth;
+}
+ul {
+	list-style: none;
+}
+li {
+	display: inline-block;
+}
+a {
+	text-decoration: none;
+}
+.al {
+	align-items: center;
+}
+.np {
+	padding: 0;
+	margin: 0;
+}
+img {
+	height: 100%;
+	width: 100%;
+}
+
+
+
+
+/*main-header*/
+
+.main-header {
+	padding: 20px 0px;
+	background: #353535;
+}
+.logo-area h4 {
+	color: tomato;
+	font-size: 20px;
+}
+.logo-area h4::first-letter {
+	font-size: 35px;
+	color: aqua;
+	font-weight: bold;
+	font-family: forte;
+}
+.menu-area {
+	float: right;
+}
+.menu-area ul li {
+	padding: 5px 20px;
+	background: #353535;
+	box-shadow: inset 2px 2px 2px #828282,inset -2px -2px 2px #090808;
+	border-radius: 25px;
+}
+.menu-area ul li a {
+	font-size: 19px;
+	color: aqua;
+}
+
+
+
+
+/*slide area*/
+
+.slide-image {
+	height: 100vh;
+	position: relative;
+	background: #1e1e1e;
+	/*background: linear-gradient(22.5deg,white 13%,#08f,#81ff6f);*/
+}
+.slide-text h1 {
+	color: aqua;
+}
+.slide-text {
+	position: absolute;
+	top: 15%;
+	width: 60%;
+	left: 8%;
+	padding: 10px;
+}
+.slide-text p {
+	color: aqua;
+	line-height: 40px;
+	text-align: justify;
+}
+.slide-text span {
+	color: tomato;
+	font-weight: bold;
+}
+.BTN {
+	padding: 4px 27px;
+	box-shadow: 2px 7px 7px #000;
+	color: tomato;
+	border-radius: 33px;
+	border-top: .5px solid white;
+}

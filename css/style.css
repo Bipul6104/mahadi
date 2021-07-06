@@ -1,0 +1,498 @@
+* {
+	padding: 0;
+	margin: 0;
+}
+body {
+	font-family: arial;
+	scroll-behavior: smooth;
+}
+ul {
+	list-style: none;
+}
+li {
+	display: inline-block;
+}
+a {
+	text-decoration: none;
+	color: aqua;
+}
+p {
+	color: aqua;
+}
+.al {
+	align-items: center;
+}
+.np {
+	padding: 0;
+	margin: 0;
+}
+img {
+	height: 100%;
+	width: 100%;
+}
+.rr {
+	flex-direction: row-reverse;
+}
+
+
+
+
+/*top header area*/
+
+
+/*.topHeaderRow ul li {
+	display: inline-block;
+}
+.topMenu {
+	float: right;
+}
+.menu-area ul li:hover {
+	background: #ffa700;
+	padding: 0px 20px;
+	border-radius: 25px;
+	color: ;
+	box-shadow: 0px 3px 3px #484848;
+	transition: .5s;
+}
+.menu-area ul li a:hover {
+	text-decoration: none;
+	color: white;
+}*/
+
+
+
+
+/*main header*/
+
+.main-header {
+	padding: 20px 0px;
+	background: #353535;
+}
+.logo-area h4 {
+	color: tomato;
+	font-size: 20px;
+}
+.logo-area h4::first-letter {
+	font-size: 35px;
+	color: aqua;
+	font-weight: bold;
+	font-family: forte;
+}
+.menu-area {
+	float: right;
+}
+.menu-area ul li {
+	padding: 5px 20px;
+	background: #353535;
+	box-shadow: inset 2px 2px 2px #828282,inset -2px -2px 2px #090808;
+	border-radius: 25px;
+}
+.menu-area ul li:hover a {
+	text-decoration: none;
+}
+.menu-area ul li a {
+	font-size: 15px;
+	color: aqua;
+}
+
+
+
+
+
+/*particle area*/
+
+#particles-js {
+	height: 100vh;
+	background: linear-gradient(45deg,#353535,#1e1e1e);
+}
+.box h1 {
+	color: aqua;
+	text-transform: uppercase;
+	font-size: 60px;
+	text-align: center;
+	position: absolute;
+	top: 60%;
+	left: 30%;
+	font-weight: bold;
+}
+
+
+
+
+
+
+/*service area*/
+.service-text {
+	padding: 24px;
+	box-shadow: inset 2px 2px 10px black,inset -2px -2px 10px black;
+	text-align: center;
+	border-radius: 5px;
+}
+.service-area {
+	padding: 35px 0px;
+	background: #353535;
+}
+.myContainer3 {
+	padding: 50px 0px;
+}
+.all-service {
+	display: grid;
+	grid-template-columns: auto auto auto auto;
+	grid-row-gap: 20px;
+	grid-column-gap: 21.5px;
+}
+.service-text p {
+	color: aqua;
+}
+.Card {
+	height: 311px;
+	width: 260px;
+	background: #464646;
+	box-shadow: 2px 2px 11px black;
+	padding: 17px;
+	text-align: center;
+	border-radius: 5px;
+}
+.Card i {
+	font-size: 85px;
+	color: tomato;
+}
+.Card p {
+	color: aqua;
+}
+
+
+
+
+
+
+/*about area*/
+.about-area {
+	padding: 35px 0px;
+	background: #1e1e1e;
+}
+.myContainer2 {
+	padding: 25vh 0vh;
+}
+.about-text p {
+	line-height: 35px;
+	color: aqua;
+}
+/*.about-text*/
+h3 {
+	font-weight: bold;
+	font-family: arial;
+	font-size: 35px;
+	word-spacing: 14px;
+	padding-bottom: 20px;
+	color: aqua;
+}
+/*.about-text*/
+span {
+	color: tomato;
+}
+.Card h4 {
+	color: aqua;
+}
+.BTn {
+	padding: 4px 27px;
+	box-shadow: 2px 7px 7px #29809b;
+	color: aqua;
+	border-radius: 25px;
+	border-top: 1px solid white;
+}
+
+
+
+/*more area*/
+.more-area {
+	padding: 100px 0px;
+	background: #2d2c2c;
+}
+.myContainer6 h2 {
+	text-align: center;
+	padding-bottom: 20px;
+	color: tomato;
+	font-weight: bold;
+}
+.moreText {
+	height: 290px;
+	width: 70%;
+	background: #555;
+	margin: 0 auto;
+	text-align: center;
+	padding-top: 80px;
+	position: relative;
+	border-radius: 25px;
+	box-shadow: 2px 2px 5px tomato;
+}
+.moreText i {
+	font-size: 100px;
+	color: aqua;
+	padding-bottom: 10px;
+}
+.moreText h2 {
+	color: tomato;
+	font-weight: bold;
+}
+.moreText span {
+	position: absolute;
+	width: 100%;
+	left: 0;
+	top: 0;
+	padding: 25px;
+	background: #1e1e1e;
+	opacity: 0;
+	visibility: hidden;
+	transition: .5s;
+	height: 100%;
+	border-radius: 25px;
+	box-shadow: 2px 2px 5px aqua;
+}
+.moreText span p{
+	text-align: justify;
+}
+.moreText:hover span {
+	opacity: 1;
+	visibility: visible;
+}
+
+
+
+
+
+
+
+
+
+/*footer-area*/
+.footer-area {
+	padding: 35px 0px;
+	background: #353535;
+}
+.first,.second,.third {
+	text-align: center;
+}
+.logo-image {
+	height: 60px;
+	width: 60px;
+	margin: 0 auto;
+}
+.first ul li {
+	display: block;
+}.second ul li {
+	display: block;
+}
+.third ul {
+	display: grid;
+	grid-template-columns: auto auto auto;
+	grid-row-gap: 30px;
+	padding-top: 20px;
+}
+.second h4, .third h4 {
+	color: tomato;
+	font-size: 30px;
+	font-weight: bold;
+	padding-bottom: 6px;
+	position: relative;
+}
+.second h4::after {
+	position: absolute;
+	content: '';
+	height: 3px;
+	width: 75%;
+	background: tomato;
+	top: 100%;
+	left: 12%;
+}
+.third h4::after {
+	position: absolute;
+	content: '';
+	height: 3px;
+	width: 75%;
+	background: tomato;
+	top: 100%;
+	left: 12%;
+}
+.third ul li a i {
+	font-size: 20px;
+	color: aqua;
+}
+.second ul {
+	padding-top: 20px;
+}
+.second ul li a {
+	color: aqua;
+}
+.first ul {
+	padding-top: 20px;
+}
+.first ul li a {
+	color: aqua;
+}
+
+
+/*last footer-area*/
+
+.bipul {
+	background: #353535;
+	padding: 7px 0px;
+	border-top: 1.5px solid #222;
+}
+.bipul p {
+	color: aqua;
+	text-align: center;
+	margin: 0;
+	font-family: curlz mt;
+	letter-spacing: 5px;
+	word-spacing: 11px;
+}
+
+
+
+
+
+/*about page*/
+/*about page*/
+/*about page*/
+/*about page*/
+/*about page*/
+/*about page*/
+/*about page*/
+/*about page*/
+/*about page*/
+
+
+/*slide area*/
+
+.slide-image {
+	height: 100vh;
+	position: relative;
+	background: #1e1e1e;
+	/*background: linear-gradient(22.5deg,white 13%,#08f,#81ff6f);*/
+}
+.slide-text h1 {
+	color: tomato;
+}
+.slide-text {
+	position: absolute;
+	top: 15%;
+	width: 60%;
+	left: 8%;
+	padding: 10px;
+}
+.slide-text p {
+	color: aqua;
+	line-height: 40px;
+	text-align: justify;
+}
+.slide-text span {
+	color: tomato;
+	font-weight: bold;
+}
+.BTN {
+	padding: 4px 27px;
+	box-shadow: 2px 7px 7px #000;
+	color: tomato;
+	border-radius: 33px;
+	border-top: .5px solid white;
+}
+
+
+
+
+/*journey area*/
+
+
+.journey-area {
+	background: #353535;
+	padding: 35px 0px;
+}
+.journey-h {
+	margin-bottom: 90px;
+}
+.journey-h h2,.journeyText h2,.sampleh h2 {
+	color: tomato;
+}
+.journeyText p {
+	text-align: justify;
+}
+.myColRight2img {
+	height: 250px;
+	width: 420px;
+}
+.myColRight2img i {
+	font-size: 250px;
+	color: white;
+}
+
+
+
+/*counter area*/
+.all-h {
+	text-align: center;
+	padding: 35px 0px;
+	background: #484848;
+}
+.all-h h3 {
+	color: tomato;
+}
+.single {
+	text-align: center;
+	padding: 10px 0px;
+	box-shadow: inset 2px 2px 2px white,inset -2px -2px 10px black;
+	border-radius: 29px;
+}
+.single h2 {
+	font-size: 15px;
+	color: white;
+}
+.single span {
+	color: aqua;
+	font-weight: bold;
+}
+
+
+
+
+/*sample area*/
+
+.Sample-area {
+	padding: 130px 0px;
+	background: #1e1e1e;
+}
+.myCol2 {
+	height: 318px;
+	width: 225px;
+	padding-top: 30px;
+	margin: 0 auto;
+}
+
+
+
+
+
+
+/*service area*/
+/*service area*/
+/*service area*/
+/*service area*/
+/*service area*/
+/*service area*/
+.myContainer5 {
+	position: relative;
+}
+.wel-text {
+	position: absolute;
+	top: 20%;
+	left: 3%;
+}
+.wel-text h2 {
+	color: tomato;
+}
+.wel-text p {
+	width: 350px;
+}
+
+
+
